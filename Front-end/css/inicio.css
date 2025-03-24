@@ -1,0 +1,34 @@
+.container-Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%; 
+    height: 10%; 
+
+}
+
+.Logo {
+    border-radius: 50%; 
+    width: 10%; 
+    height: auto; 
+   
+}
+
+.container-login {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+    position: absolute; 
+    top: 0;
+    right: 30px;
+    width: 100%; 
+    height: auto; 
+}
+
+.FLogin, .MLogin {
+    width: 5%; 
+    height: auto;
+    margin-right: 1%; 
+    position: static; 
+}
